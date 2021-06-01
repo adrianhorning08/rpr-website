@@ -27,7 +27,7 @@ function Cta() {
               <div>
                 <a
                   className="btn text-purple-600 bg-gradient-to-r from-blue-100 to-white"
-                  href="#game-tiles"
+                  href="#rentals"
                 >
                   Beam me up Scotty
                 </a>

@@ -81,11 +81,14 @@ function Header() {
             </Link>
           </div>
 
+          <div>
+            <h3 className="font-black text-lg">Rexburg Party Rental</h3>
+          </div>
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:flex-grow">
-            {/* Desktop menu links */}
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
-              {/* <li>
+          {/* <nav className="hidden md:flex md:flex-grow"> */}
+          {/* Desktop menu links */}
+          {/* <ul className="flex flex-grow justify-end flex-wrap items-center"> */}
+          {/* <li>
                 <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
               </li>
               <li>
@@ -99,9 +102,9 @@ function Header() {
               <li>
                 <Link to="/blog" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
               </li>               */}
-              {/* 1st level: hover */}
-              {/* 2nd level: hover */}
-              {/* <Dropdown title="Resources">
+          {/* 1st level: hover */}
+          {/* 2nd level: hover */}
+          {/* <Dropdown title="Resources">
                 <li>
                   <Link to="/documentation" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Documentation</Link>
                 </li>
@@ -112,10 +115,10 @@ function Header() {
                   <Link to="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">404</Link>
                 </li>
               </Dropdown> */}
-            </ul>
+          {/* </ul> */}
 
-            {/* Desktop sign in links */}
-            {/* <ul className="flex flex-grow justify-end flex-wrap items-center">
+          {/* Desktop sign in links */}
+          {/* <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link
                   to="/signin"
@@ -143,7 +146,7 @@ function Header() {
                 </Link>
               </li>
             </ul> */}
-          </nav>
+          {/* </nav> */}
 
           {/* Mobile menu */}
           <div className="flex md:hidden">

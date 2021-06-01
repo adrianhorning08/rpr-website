@@ -38,15 +38,14 @@ function HeroHome() {
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40">
           {/* Section header */}
-          <div className="text-center pb-12">
+          <div className="text-center pb-12 px-3">
             <h1
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
               Make Rexburg{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-purple-600">
-                less boring
-              </span>
+              {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-purple-600"> */}
+              <span className="text-pink-500">less boring</span>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -63,8 +62,8 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <a
-                  className="relative w-1/2 w-auto block text-sm font-semibold bg-purple-500 hover:bg-purple-600 rounded-lg text-white px-4 py-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
-                  href="#game-tiles"
+                  className="relative w-1/2 w-auto block text-md font-semibold bg-purple-500 hover:bg-purple-600 rounded-lg text-white px-4 py-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+                  href="#rentals"
                 >
                   Browse rentals
                 </a>

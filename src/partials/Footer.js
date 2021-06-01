@@ -243,6 +243,7 @@ function Footer() {
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           {/* Social links */}
+          <h3 className="font-black text-lg">Rexburg Party Rental</h3>
           {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <Link
